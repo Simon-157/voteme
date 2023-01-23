@@ -1,0 +1,27 @@
+.button {
+  border-radius: 0.25rem;
+  background-color: var(--background-end-rgb);
+  color: white;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  font-family: var(--app-font-primary);
+  font-size: 2em;
+
+  a {
+    color: white;
+    //  padding: 1rem;
+    width: 100%;
+  }
+
+  svg {
+    margin-right: 0.8rem;
+  }
+}
+
+.padding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}

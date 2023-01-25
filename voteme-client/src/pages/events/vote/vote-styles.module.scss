@@ -1,0 +1,88 @@
+.electionCategories {
+  h1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+  }
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    //  text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+  }
+}
+
+.candidateListContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: black;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  background-color: white;
+
+  h2 {
+    font-size: 150%;
+    padding: 1rem;
+  }
+  .submitButton {
+    width: 100%;
+    background-color: #2ecc71;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+}
+
+.ballotPaperContainer {
+  display: flex;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .candidateRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      text-align: center;
+      p {
+        margin-top: 5px;
+      }
+    }
+  }
+
+  .votesInput {
+    label {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+    }
+    input[type="number"] {
+      width: 50px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+}

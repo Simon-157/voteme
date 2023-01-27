@@ -1,6 +1,7 @@
-const { getClient } = require("../config/postgressdb");
 import { Response, Request } from "express";
 import Account from "../types/accounts.interface";
+
+const { getClient } = require("../config/postgressdb");
 
 const addAccount = async (req: Request, res: Response) => {
   const client = await getClient();

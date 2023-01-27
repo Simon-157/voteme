@@ -1,4 +1,4 @@
-import { Router, Request, Response } from "express";
+import { Router } from "express";
 const controller = require("../controllers/account");
 
 export const accountRoute = Router();

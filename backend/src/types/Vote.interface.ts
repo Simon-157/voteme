@@ -1,7 +1,8 @@
 interface Vote{
    voteId: number,
    nomineeId: number,
-   voterId: number
+   voterId: number,
+   numOfVotes: number
 
 }
 

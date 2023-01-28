@@ -6,7 +6,7 @@ interface Props {
   icon?: React.ReactNode;
   text?: string;
   to?: string;
-  styles?: React.CSSProperties;
+  styles?: any;
   onClick?: () => void;
 }
 

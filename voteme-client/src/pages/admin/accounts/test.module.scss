@@ -1,0 +1,42 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+
+  p {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #444;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+
+    &.active {
+      background-color: #ddd;
+      color: #111;
+    }
+
+    &:hover {
+      background-color: #ddd;
+    }
+
+    .icon {
+      margin-right: 8px;
+
+      &.home {
+        background: url("/images/home.png");
+      }
+
+      &.about {
+        background: url("/images/about.png");
+      }
+
+      &.contact {
+        background: url("/images/contact.png");
+      }
+    }
+  }
+}

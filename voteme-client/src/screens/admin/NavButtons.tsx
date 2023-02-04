@@ -9,6 +9,8 @@ import {
   FAQ,
   LOGOUT,
   ANALYTICS,
+  UNPUBLISHED,
+  RESULTS,
 } from "@/utils/constants";
 
 export const NavigationButtons = [
@@ -17,12 +19,16 @@ export const NavigationButtons = [
     to: `${ADMIN}${HOME}${EVENTS}`,
   },
   {
-    text: SETTINGS,
-    to: `${ADMIN}${HOME}${SETTINGS}`,
+    text: UNPUBLISHED,
+    to: `${ADMIN}${HOME}${UNPUBLISHED}`,
   },
   {
-    text: VOTE,
-    to: `${ADMIN}${HOME}${VOTE}`,
+    text: RESULTS,
+    to: `${ADMIN}${HOME}${RESULTS}`,
+  },
+  {
+    text: SETTINGS,
+    to: `${ADMIN}${HOME}${SETTINGS}`,
   },
   {
     text: FAQ,

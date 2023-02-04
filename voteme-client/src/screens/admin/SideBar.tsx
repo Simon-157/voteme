@@ -18,8 +18,8 @@ const SideBar: React.FC = () => {
           height={20}
         />
         <span>
-          SIMON JUNIOR BOATENG
-          <p style={{ color: "rgb(181, 207, 207)" }}>Software Developer</p>
+          University of Education
+          <p style={{ color: "rgb(181, 207, 207)" }}>Organization</p>
         </span>
         <div className="line"></div>
       </header>

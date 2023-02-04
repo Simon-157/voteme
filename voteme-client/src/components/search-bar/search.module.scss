@@ -1,0 +1,20 @@
+.search {
+  width: 15rem;
+  border: 2px solid var(--search-box-border);
+  border-radius: 1rem;
+  font-size: 18 px;
+  background-color: var(--foreground-blue);
+  color: var(--white-200);
+  font-weight: bold;
+  background-image: url("https://css.gg/css?=|search");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 8px 10px 8px 10px;
+  transition: width 0.4s ease-in-out;
+}
+
+.search:focus {
+  width: 30rem;
+  outline: 0;
+  border: 1px solid rgb(16, 85, 97);
+}

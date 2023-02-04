@@ -12,12 +12,17 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: #f2f0f2;
+  --foreground-blue: #1f2941;
   --background-start-rgb: #141b2d;
   --background-end-rgb: #010044;
   --dark-blue-200: #22375b;
   --white-200: #f7f5f2;
   --white-300: #fffbff;
   --background-start-rgb-100: #212a42;
+  --search-box-border: #22375b;
+  --border-radius: 12px;
+  --background-color: #294c6c;
+  --black-200: #162738;
 }
 
 *,

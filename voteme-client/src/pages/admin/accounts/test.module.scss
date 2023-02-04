@@ -1,42 +1,21 @@
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 10%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: red;
+}
 
-  p {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: #444;
-    padding: 8px;
-    margin-bottom: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    transition: all 0.2s ease-in-out;
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
-    &.active {
-      background-color: #ddd;
-      color: #111;
-    }
+.cardImage {
+  border-radius: 5px 5px 0 0;
+}
 
-    &:hover {
-      background-color: #ddd;
-    }
-
-    .icon {
-      margin-right: 8px;
-
-      &.home {
-        background: url("/images/home.png");
-      }
-
-      &.about {
-        background: url("/images/about.png");
-      }
-
-      &.contact {
-        background: url("/images/contact.png");
-      }
-    }
-  }
+.container {
+  padding: 2px 16px;
+  background: red;
 }

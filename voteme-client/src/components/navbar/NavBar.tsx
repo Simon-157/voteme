@@ -12,7 +12,7 @@ const NavBar = () => {
           <Link href="/">
             <ElectionSvg viewBox="0 0 28 28" width="28" height="28" />
           </Link>
-          <span>Voteme</span>
+          <span>E-Cast</span>
           <li className={navStyles.navItem}>
             <Link href="/">Events</Link>
           </li>

@@ -13,6 +13,7 @@ import Card from "@/screens/events-card/Card";
 import vote from "../../../../utils/images/star.png";
 import { Event } from "@/types/eventtype";
 import Head from "next/head";
+import AddEvent from "@/screens/admin/components/AddEvent";
 
 const Account = () => {
   // const [activeEvents, setActiveEvents] = React.useState(Array<Event>);
@@ -67,6 +68,9 @@ const Account = () => {
                 />
               );
             })}
+          </div>
+          <div className={adminStyles.action}>
+            <AddEvent />
           </div>
 
           <footer></footer>

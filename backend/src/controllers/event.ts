@@ -15,11 +15,11 @@ const createEvent = async (req: Request, res: Response) => {
   });
 };
 
-const deleteEvent = async (req: Request, res: Response) =>{
-   const id = req.params.id;
-   const sqlcode = `DELETE * from Event_ where eventId = ${id}`;
-   await client.query(sqlcode, (err:Error,results:any) => {
-      if(err) console.log(err.message);
-      else res.status(200).json({success:"successfully deleted an event"})
-   })
-  }
+const deleteEvent = async (req: Request, res: Response) => {
+  const id = req.params.id;
+  const sqlcode = `DELETE * from Event_ where eventId = ${id}`;
+  await client.query(sqlcode, (err: Error, results: any) => {
+    if (err) console.log(err.message);
+    else res.status(200).json({ success: "successfully deleted an event" });
+  });
+};

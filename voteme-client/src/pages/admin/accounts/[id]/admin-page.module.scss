@@ -27,12 +27,14 @@
 }
 
 .activeEvents {
-  height: 100vh;
   display: flex;
-  // flex-wrap: wrap;
   flex: 1 1 auto;
-
-  // height: 10rem;
   width: 100%;
-  // flex-direction: column;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  width: 100%;
 }

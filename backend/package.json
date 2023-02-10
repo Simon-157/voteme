@@ -37,6 +37,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
+    "morgan": "^1.10.0",
     "pg": "^8.8.0"
   }
 }
